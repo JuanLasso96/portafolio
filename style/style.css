@@ -231,6 +231,9 @@ div>a{
     cursor: pointer;
     z-index: 100;
 }
+div>a:hover{
+color: #2f63f1;
+}
 div.modos{
 display: flex;
 flex-direction: row;
@@ -243,6 +246,7 @@ div.contactame{
 div.contactame>p{
     text-align: center;
 }
+
 @media only screen and ( min-width: 800px ){
     label{
         position: relative;
