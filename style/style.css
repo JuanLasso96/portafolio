@@ -165,6 +165,9 @@ h3{
 h2{
     font-size: x-large;
 }
+h4{
+    font-size: x-large;
+}
 div#skills{
     display: flex;
     flex-direction: row;
