@@ -51,7 +51,7 @@ input#menu ~ ul{
 }
 input#menu:checked~ul{
     right: 0;
-    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    background: linear-gradient(90deg,  #F0F2F0, #474747);
     padding-top: 10px;
     box-shadow: 0 0 4px #8f94fb ;
     height: auto;
@@ -133,6 +133,9 @@ section#contact{
     height: auto;  
     overflow: hidden; 
     color: white;
+    background-image: url("../imagenes/fondofinal.jpg");
+    background-size: 100% 100%;
+    padding-bottom: 3%;
 }
 section#proyects{
     display: flex;
@@ -209,12 +212,7 @@ footer{
     background: linear-gradient(90deg, #F0F2F0, #474747);
     box-shadow: 0 0 10px;
 }
-div.contactoFondo{
-    width: 100%;
-    height: auto;
-    position: absolute;
-    text-align: center;
-}
+
 div>a{
     padding: 3%;
     cursor: pointer;
