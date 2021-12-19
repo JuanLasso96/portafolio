@@ -251,7 +251,10 @@ div.contactame{
 div.contactame>p{
     text-align: center;
     text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
-}   
+}  
+.fa-4x{
+    font-size:4rem;
+} 
 
 @media only screen and ( min-width: 800px ){
     label{
@@ -300,4 +303,7 @@ div.contactame>p{
         padding-right: 5%;
         box-shadow: none
     }
+    .fa-4x{
+        font-size:10rem;
+    } 
  }
